@@ -1,5 +1,5 @@
 === live financial news ===
-Contributors: pwsdotru
+Contributors: akram artoul
 Donate link: http://zvoid.com/
 Tags: widget, news , stream , stream news ,financial news , financial
 Requires at least: 2.0.2
@@ -9,8 +9,6 @@ Stable tag: trunk
 This is  plugin it is a stream of  domestic and worldwide news in realtime using ajax.
 
 == Description ==
-**You can choose one of these categories** - politics | Tech | Finance | Music | Movies | Fashion | Gossip | Art | Fun | Books | Shoping | Travel | Games | Sports | Golf | Soccer
-
 
 
 just install this and see the financial news coming to your site (inside the plugin) in real-time updating every second..
