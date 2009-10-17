@@ -204,6 +204,7 @@ News category <select name="ctn" id="ctn" >
   <option value="14" <?php if(get_option('outctn')==14) { ?>  selected="selected" <?php } ?> >Sports news</option>
   <option value="15" <?php if(get_option('outctn')==15) { ?>  selected="selected" <?php } ?> >Soccer news</option>
   <option value="16" <?php if(get_option('outctn')==16) { ?>  selected="selected" <?php } ?> >Golf news</option>
+  
 </select><br/>
 Photos in headlines? 
 <select style="width:80px" name="n" id="n">
@@ -218,7 +219,7 @@ Box Background Color <input type="text" name="boxback" size="6" value="<?php ech
 Text Color <input type="text" name="color" size="6" value="<?php echo $optionsArray["color"];?>"><br/>
 Real time news color <input type="text" name="zc" size="6" value="<?php echo $optionsArray["zc"];?>"><br/>
 Real time news back color <input type="text" name="zbc" size="6" value="<?php echo $optionsArray["zbc"];?>"><br/>
-
+<?php ad(); ?><br />
 <?php
 
 exit();
@@ -257,14 +258,52 @@ Box Background Color <input type="text" name="boxback" size="6" value="<?php ech
 Text Color <input type="text" name="color" size="6" value="<?php echo $optionsArray["color"];?>"><br/>
 Real time news color <input type="text" name="zc" size="6" value="<?php echo $optionsArray["zc"];?>"><br/>
 Real time news back color <input type="text" name="zbc" size="6" value="<?php echo $optionsArray["zbc"];?>"><br/>
-
+<?php ad(); ?><br />
 <?
 
 }
 
 
 
+function ad()
+{
 
+
+	$rand = rand(1,5);
+
+	if($rand == 1)
+		{
+		echo '<a href="https://www.e-junkie.com/ecom/gb.php?ii=205617&c=ib&aff=89950&cl=22794" target="ejejcsingle"><img  src="http://www.gabfirethemes.com/wp-content/uploads/2008/07/125-03.jpg" border="0" /></a>';
+		
+		}
+	
+	
+	if($rand == 2)
+		{
+		echo '<a title="Clicky Web Analytics" href="http://getclicky.com/140944"><img alt="Clicky Web Analytics" src="http://getclicky.com/media/links/clicky-125-2.gif"		 border="0" /></a>';
+		
+		}
+		
+			if($rand == 3)
+		{
+		echo '<a href="https://www.e-junkie.com/ecom/gb.php?ii=229724&c=ib&aff=89950&cl=15848" title="Premium Wordpress Themes" target="_blank"><img src="http://stylewp.com/assets/banners/125_125c.gif" alt="Premium Wordpress Themes" style="border=0;" /></a>';
+		
+		}
+		
+			if($rand == 4)
+		{
+		echo '<a href="https://www.e-junkie.com/ecom/gb.php?ii=229724&c=ib&aff=89950&cl=15848" title="Premium Wordpress Themes" target="_blank"><img src="http://stylewp.com/assets/banners/125_125b.gif" alt="Premium Wordpress Themes" style="border=0;" /></a>';
+		
+		}
+		
+			if($rand == 5)
+		{
+		echo '<a href="https://www.e-junkie.com/ecom/gb.php?ii=229724&c=ib&aff=89950&cl=15848" title="Premium Wordpress Themes" target="_blank"><img src="http://stylewp.com/assets/banners/300_250.png" alt="Premium Wordpress Themes" style="border=0;" /></a>';
+		
+		}
+		
+
+}
 
 function widget_livefinancialnews_init() {
 
