@@ -219,7 +219,7 @@ Box Background Color <input type="text" name="boxback" size="6" value="<?php ech
 Text Color <input type="text" name="color" size="6" value="<?php echo $optionsArray["color"];?>"><br/>
 Real time news color <input type="text" name="zc" size="6" value="<?php echo $optionsArray["zc"];?>"><br/>
 Real time news back color <input type="text" name="zbc" size="6" value="<?php echo $optionsArray["zbc"];?>"><br/>
-<?php ad(); ?><br />
+<?php ad1(); ?><br />
 <a href="http://premiumthemes.net/members/go.php?r=1000&i=l0">Premium Wordpress Themes</a><br />
 <?php
 
@@ -259,7 +259,7 @@ Box Background Color <input type="text" name="boxback" size="6" value="<?php ech
 Text Color <input type="text" name="color" size="6" value="<?php echo $optionsArray["color"];?>"><br/>
 Real time news color <input type="text" name="zc" size="6" value="<?php echo $optionsArray["zc"];?>"><br/>
 Real time news back color <input type="text" name="zbc" size="6" value="<?php echo $optionsArray["zbc"];?>"><br/>
-<?php ad(); ?><br />
+<?php ad1(); ?><br />
 <a href="http://premiumthemes.net/members/go.php?r=1000&i=l0">Premium Wordpress Themes</a><br />
 <?
 
@@ -267,7 +267,7 @@ Real time news back color <input type="text" name="zbc" size="6" value="<?php ec
 
 
 
-function ad()
+function ad1()
 {
 
 
