@@ -275,7 +275,7 @@ function ad1()
 
 	if($rand == 1)
 		{
-		echo '<a href="http://premiumthemes.net/members/go.php?r=1000" target="ejejcsingle"><img  src="http://www.gabfirethemes.com/wp-content/uploads/2008/07/125-03.jpg" border="0" /></a>';
+		echo '<!-- Begin Web-Stat banner code --><a href="http://www.web-stat.com/?id=3166" target="_blank"><img src="http://www.web-stat.com/affiliate_banner5.jpg" width="120" height="60" border="0" alt="Web-Stat web traffic analysis"></A><!-- End Web-Stat banner code -->';
 		
 		}
 	
@@ -288,19 +288,19 @@ function ad1()
 		
 			if($rand == 3)
 		{
-		echo '<a href="http://premiumthemes.net/members/go.php?r=1000" title="Premium Wordpress Themes" target="_blank"><img src="http://stylewp.com/assets/banners/125_125c.gif" alt="Premium Wordpress Themes" style="border=0;" /></a>';
+		echo '<!-- Begin Web-Stat banner code --><a href="http://www.web-stat.com/?id=3166" target="_blank"><img src="http://www.web-stat.com/affiliate_banner5.jpg" width="120" height="60" border="0" alt="Web-Stat web traffic analysis"></A><!-- End Web-Stat banner code -->';
 		
 		}
 		
 			if($rand == 4)
 		{
-		echo '<a href="http://premiumthemes.net/members/go.php?r=1000" title="Premium Wordpress Themes" target="_blank"><img src="http://stylewp.com/assets/banners/125_125b.gif" alt="Premium Wordpress Themes" style="border=0;" /></a>';
+		echo '<!-- Begin Web-Stat banner code --><a href="http://www.web-stat.com/?id=3166" target="_blank"><img src="http://www.web-stat.com/affiliate_banner4.jpg" width="234" height="60" border="0" alt="Web-Stat web traffic analysis"></A><!-- End Web-Stat banner code -->';
 		
 		}
 		
 			if($rand == 5)
 		{
-		echo '<a href="http://premiumthemes.net/members/go.php?r=1000" title="Premium Wordpress Themes" target="_blank"><img src="http://stylewp.com/assets/banners/300_250.png" alt="Premium Wordpress Themes" style="border=0;" /></a>';
+		echo '<!-- Begin Web-Stat banner code --><a href="http://www.web-stat.com/?id=3166" target="_blank"><img src="http://www.web-stat.com/affiliate_banner4.jpg" width="234" height="60" border="0" alt="Web-Stat web traffic analysis"></A><!-- End Web-Stat banner code -->';
 		
 		}
 		
@@ -309,7 +309,6 @@ function ad1()
 		echo '<a href="http://premiumthemes.net/members/go.php?r=1000&i=b3"><img src="http://premiumthemes.net/bannerpt/pt_125x125.jpg" border=0 alt="Premium Wordpress Themes - out of the box solutions for small business &amp; pro bloggers" ></a> ';
 		
 		}
-
 }
 
 
