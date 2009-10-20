@@ -5,7 +5,7 @@ Plugin Name: Latest financial news- very cool
 Plugin URI: http://zvoid.com/blog2/
 Description: latest financial news in real time . most pupular news widget in the world.
 Author: Akram Artoul
-Version: 2
+Version: 2.1
 Author URI: http://zvoid.com/
 */
 
@@ -13,7 +13,7 @@ Author URI: http://zvoid.com/
 
 
 
-if($_POST['width']||$_POST['height']||$_POST['background']||$_POST['boxback']||$_POST['color']||$_POST['zc']||$_POST['zbc']||$_POST['n']||$_POST['ctn']){
+if($_POST['width']||$_POST['height']||$_POST['background']||$_POST['boxback']||$_POST['color']||$_POST['zc']||$_POST['zbc']||$_POST['n']||$_POST['ctn']||$_POST['tit']){
 
 
 //////////////////////////////////////////
@@ -60,6 +60,10 @@ update_option('outctn', $_POST['ctn']);
 if($_POST['speed']){
 add_option('outspeed', '2', '', 'no');
 update_option('outspeed', $_POST['speed']);
+}
+if($_POST['tit']){
+add_option('outtit', 'live financial news', '', 'no');
+update_option('outtit', $_POST['tit']);
 }
 //////////////////////////////////////
 //////////////////////////////////////
@@ -115,6 +119,10 @@ $outspeed = get_option('outspeed');
 if(!$outspeed)
 $outspeed='2';
 //////////////////////////////////////
+$outtit = get_option('outtit');
+if(!$outtit)
+$outtit='live financial news';
+//////////////////////////////////////
 $optionsArray=array(
 
 "width"=>$outwidth,
@@ -134,6 +142,8 @@ $optionsArray=array(
 "n"=>$outn,
 
 "speed"=>$outspeed,
+
+"tit"=>$outtit,
 
 "ctn"=>$outctn
 );
@@ -157,7 +167,7 @@ function widget_livefinancialnews($args) {
 //echo $optionsArray["background"];
 
 
-        echo($args["before_widget"].$args["before_title"].$args["widget_name"].$args["after_title"]);
+        echo($args["before_widget"].$args["before_title"].$optionsArray["tit"].$args["after_title"]);
 
 	$params="&bc=".$optionsArray["background"]."&bxc=".$optionsArray["boxback"]."&tcolor=".$optionsArray["color"]."&zc=".$optionsArray["zc"]."&zbc=".$optionsArray["zbc"]."&n=".$optionsArray["n"]."&ctn=".$optionsArray["ctn"]."&speed=".$optionsArray["speed"];
 	
