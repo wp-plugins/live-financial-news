@@ -196,6 +196,7 @@ global $optionsArray;
 if($_SERVER["REQUEST_METHOD"]=="POST") {
 
 ?>
+Title <input type="text" name="tit" size="20" value="<?php echo $optionsArray["tit"];?>"><br/>
 News category <select name="ctn" id="ctn" >
   <option value="100" <?php if(get_option('outctn')==100) { ?> selected="selected" <?php } ?>>All</option>
   <option value="2" <?php if(get_option('outctn')==2) { ?> selected="selected" <?php } ?> >Political news</option>
@@ -238,6 +239,7 @@ exit();
 }
 
 ?>
+Title <input type="text" name="tit" size="20" value="<?php echo $optionsArray["tit"];?>"><br/>
 News category <select name="ctn" id="ctn" >
   <option value="100" <?php if(get_option('outctn')==100) { ?> selected="selected" <?php } ?>>All</option>
   <option value="2" <?php if(get_option('outctn')==2) { ?> selected="selected" <?php } ?> >Political news</option>
